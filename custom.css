@@ -1,7 +1,3 @@
-.bg-dark {
-  background-color: #292929 !important;
-}
-
 .navbar img {
   width: 100px;
 }
@@ -11,13 +7,13 @@
 }
 
 .navbar a:hover {
-  color: orange !important;
+  color: rgb(0, 0, 0) !important;
 }
 .tamanho-nav{
   width: 100%;
 }
 .dropdown-menu li a:hover {
-  color: orange;
+  color: #00ffb3 !important;
   background-color: #292929;
 }
 
@@ -31,16 +27,8 @@ p {
   width: 100%;
 }
 
-.btn-outline-success {
-  border: solid orange 1px;
-  color: orange !important;
-}
 
-.btn-outline-success:hover {
-  background-color: orange;
-  color: #292929 !important;
-  border: solid #393a47 1px !important;
-}
+
 
 .grid {
   display: flex;
@@ -158,6 +146,7 @@ iframe {
 
 input {
   border-radius: 15px;
+  border-color: black;
 }
 
 .subtitulo h2 {
@@ -174,13 +163,31 @@ input {
 
 
 .grid-sobre {
-  display: grid;
-  grid-template-columns: auto auto;
-  grid-template-rows: auto;
+  display: flex;
+  flex-wrap: wrap;
   margin-top: 8%;
   
 }
 
 .elementos{
   margin-top: 12em;
+}
+
+.cor-butao{
+  border-color: black;
+  background-color: black;
+  color: orange;
+}
+
+.cor-nav{
+  background-color: rgb(218, 142, 2);
+}
+
+.cor-butao:hover{
+  color: white !important;
+  background-color: rgb(33, 33, 54);
+}
+#butao-nav{
+  background-color: white;
+  border: solid orange 2px !important;
 }
